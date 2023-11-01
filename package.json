@@ -1,6 +1,6 @@
 {
-  "name": "dayjs",
-  "version": "0.0.0-development",
+  "name": "@bstoots/dayjs",
+  "version": "1.11.12",
   "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
   "main": "dayjs.min.js",
   "types": "index.d.ts",
@@ -44,11 +44,14 @@
     "moment"
   ],
   "author": "iamkun",
+  "contributors": [
+    "bstoots"
+  ],
   "license": "MIT",
   "homepage": "https://day.js.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamkun/dayjs.git"
+    "url": "https://github.com/bstoots/dayjs.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.44",
@@ -70,8 +73,8 @@
     "karma-jasmine": "^1.1.2",
     "karma-sauce-launcher": "^1.1.0",
     "mockdate": "^2.0.2",
-    "moment": "2.29.2",
-    "moment-timezone": "0.5.31",
+    "moment": "2.29.4",
+    "moment-timezone": "0.5.43",
     "ncp": "^2.0.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.16.1",
